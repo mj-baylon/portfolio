@@ -347,6 +347,14 @@ body:not(.scrolled-body) .nav:not(.scrolled) .nav-brand{color:#fff;}
 /* CONTACT */
 .contact-inner{text-align:left;}
 .contact-links{display:flex;flex-wrap:wrap;gap:14px;margin:32px 0 20px;}
+.social-links{display:flex;flex-wrap:wrap;gap:20px;margin-bottom:28px;}
+.social-link{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:.92rem;font-weight:600;color:var(--ink);
+  transition:color .15s ease;
+}
+.social-link svg{width:20px;height:20px;flex:none;}
+.social-link:hover{color:var(--accent);}
 .location{font-size:.88rem;color:var(--ink-soft);font-family:var(--font-mono);}
 
 /* FOOTER */
